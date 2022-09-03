@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+  using namespace std;
+  
+  int main()
+  {
+    //write your code here
+    int x;
+    cin>>x;
+    int r=x%10;
+    cout<<r;
+    
+    return 0;
+  }
