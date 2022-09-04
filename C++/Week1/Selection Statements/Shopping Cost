@@ -1,0 +1,31 @@
+#include <bits/stdc++.h>
+  using namespace std;
+  
+  int main()
+  {
+    int n;
+    cin>>n;
+    for(int i=1;i<=n;i++){
+      float qt;
+      float pr;
+      cin>>qt;
+      cin>>pr;
+      float inprice=0;
+      if(qt>100){
+        inprice=qt*pr;
+        int a;
+        a=inprice*0.2;
+        inprice=inprice-a;
+        cout<<fixed<<setprecision(1);
+        cout<<inprice<<endl;
+        
+      }
+      else{
+        inprice=qt*pr;
+        cout<<fixed<<setprecision(1);
+        cout<<inprice<<endl;
+      }
+    }
+    
+    return 0;
+  }
