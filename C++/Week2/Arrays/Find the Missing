@@ -1,0 +1,32 @@
+#include <bits/stdc++.h>
+  using namespace std;
+  
+  int main()
+  {
+    //write your code here
+    int t;
+    cin>>t;
+    while(t!=0){
+      long long n;
+      cin>>n;
+      int i;
+      int arr[n-1];
+      for(i=0;i<n-1;i++){
+        cin>>arr[i];
+        
+      }
+     long long sum=0;
+     for(int i=0;i<n-1;i++){
+       sum=sum+arr[i];
+       
+     }
+     long long sum1=(n*(n+1))/2;
+     cout<<sum1-sum;
+     cout<<endl;
+      
+      
+      t=t-1;
+    }
+    
+    return 0;
+  }
